@@ -14,7 +14,7 @@
 
 <body>
 	<div class="wrapper">
-		<header class="header">
+		<header class="header" data-scroll="40">
 			<div class="header__wrapper text-primary-semibold-14px">
 				<nav class="header__dropdown-menu menu-dropdown"></nav>
 				<button class="header__icon-menu icon-menu">
@@ -35,9 +35,117 @@
 				<a class="header__logo" href="#">
 					<img src="img/content/Logo.svg" alt="logo-img" />
 				</a>
-				<div class="header__actions actions-header" data-da=".header__dropdown-menu, 479.98, first">
-					<a class="actions-header__login action-button" href="#">Login</a>
-					<a class="actions-header__sign-up action-button" href="#">Sign up</a>
+				<div class="header__actions actions-header">
+					<a class="actions-header__favourites _icon-heart-fill" href="#"><span>Favourites</span></a>
+					<a class="actions-header__profile profile-header" href="#">
+						<div class="profile-header__avatar">
+							<div class="profile-header__avatar-ibg _icon-user-fill">
+								<picture><source srcset="img/content/avatar.webp" type="image/webp"><img src="img/content/avatar.jpg" alt="avatar-icon" /></picture>
+							</div>
+							<div class="profile-header__ver _icon-chevron-down"></div>
+						</div>
+						<div class="profile-header__name"><span>John D.</span></div>
+					</a>
+					<div class="dropdown-profile-header">
+						<div class="dropdown-profile-header__body">
+							<div class="dropdown-profile-header__header">
+								<a class="dropdown-profile-header__avatar-ibg" href="#">
+									<picture><source srcset="img/content/avatar.webp" type="image/webp"><img src="img/content/avatar.jpg" alt="avatar-icon" /></picture>
+								</a>
+								<div class="dropdown-profile-header__text-block">
+									<a class="dropdown-profile-header__name text-primary-semibold-16px" href="#">John Doe.</a>
+									<a class="dropdown-profile-header__status text-primary-regular-14px" href="#">Online</a>
+								</div>
+							</div>
+							<div class="dropdown-profile-header__info info-drop-down-profile">
+								<nav class="info-drop-down-profile__nav">
+									<ul class="info-drop-down-profile__list">
+										<li class="info-drop-down-profile__item" data-spollers>
+											<details class="info-drop-down-profile__details">
+												<summary class="info-drop-down-profile__summary _icon-chevron-forward">
+													<a class="info-drop-down-profile__title _icon-user-fill text-primary-medium-14px" href="#"><span>My account</span></a>
+												</summary>
+												<ul class="info-drop-down-profile__sub-list text-primary-regular-14px">
+													<li class="info-drop-down-profile__sub-item">
+														<a class="info-drop-down-profile__link" href="#">Some text</a>
+													</li>
+													<li class="info-drop-down-profile__sub-item">
+														<a class="info-drop-down-profile__link" href="#">Some text</a>
+													</li>
+													<li class="info-drop-down-profile__sub-item">
+														<a class="info-drop-down-profile__link" href="#">Some text</a>
+													</li>
+												</ul>
+											</details>
+										</li>
+										<li class="info-drop-down-profile__item" data-spollers>
+											<details class="info-drop-down-profile__details">
+												<summary class="info-drop-down-profile__summary _icon-chevron-forward">
+													<a class="info-drop-down-profile__title _icon-card-fill text-primary-medium-14px" href="#"><span>Payments</span></a>
+												</summary>
+												<ul class="info-drop-down-profile__sub-list text-primary-regular-14px">
+													<li class="info-drop-down-profile__sub-item">
+														<a class="info-drop-down-profile__link" href="#">Some text</a>
+													</li>
+													<li class="info-drop-down-profile__sub-item">
+														<a class="info-drop-down-profile__link" href="#">Some text</a>
+													</li>
+													<li class="info-drop-down-profile__sub-item">
+														<a class="info-drop-down-profile__link" href="#">Some text</a>
+													</li>
+												</ul>
+											</details>
+										</li>
+										<li class="info-drop-down-profile__item" data-spollers>
+											<details class="info-drop-down-profile__details">
+												<summary class="info-drop-down-profile__summary _icon-chevron-forward">
+													<a class="info-drop-down-profile__title _icon-settings-fill text-primary-medium-14px" href="#"><span>Settings</span></a>
+												</summary>
+												<ul class="info-drop-down-profile__sub-list text-primary-regular-14px">
+													<li class="info-drop-down-profile__sub-item">
+														<a class="info-drop-down-profile__link" href="#">Some text</a>
+													</li>
+													<li class="info-drop-down-profile__sub-item">
+														<a class="info-drop-down-profile__link" href="#">Some text</a>
+													</li>
+													<li class="info-drop-down-profile__sub-item">
+														<a class="info-drop-down-profile__link" href="#">Some text</a>
+													</li>
+												</ul>
+											</details>
+										</li>
+									</ul>
+								</nav>
+							</div>
+							<div class="dropdown-profile-header__actions actions-drop-down-profile">
+								<nav class="actions-drop-down-profile__nav">
+									<ul class="actions-drop-down-profile__list">
+										<li class="actions-drop-down-profile__item" data-spollers>
+											<details class="actions-drop-down-profile__details">
+												<summary class="actions-drop-down-profile__summary _icon-chevron-forward">
+													<a class="actions-drop-down-profile__title _icon-support-fill text-primary-medium-14px" href="#"><span>Support</span></a>
+												</summary>
+												<ul class="actions-drop-down-profile__sub-list text-primary-regular-14px">
+													<li class="actions-drop-down-profile__sub-item">
+														<a class="actions-drop-down-profile__link" href="#">Some text</a>
+													</li>
+													<li class="actions-drop-down-profile__sub-item">
+														<a class="actions-drop-down-profile__link" href="#">Some text</a>
+													</li>
+													<li class="actions-drop-down-profile__sub-item">
+														<a class="actions-drop-down-profile__link" href="#">Some text</a>
+													</li>
+												</ul>
+											</details>
+										</li>
+										<li class="actions-drop-down-profile__item" data-spollers>
+											<a class="actions-drop-down-profile__title _icon-user-fill text-primary-medium-14px" href="#">Logout</a>
+										</li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</header>
@@ -65,49 +173,49 @@
 							Where are you flying?
 						</h2>
 						<div class="travel-flights-search__form">
-							<form class="form-travel-flights-search" action="#">
-								<div class="form-travel-flights-search__frames">
-									<div class="form-travel-flights-search__frame form-travel-flights-search__frame_1">
-										<div class="text-field _label _trailing-icon _leading-icon">
-											<div class="text-field__body _icon-search-empty">
-												<div class="text-field__input text-primary-regular-16px _icon-swap-horizontal">
-													Lahore - Karachi
+							<form class="form-travels form-travels_stays _active" action="#" data-form-id="2">
+								<div class="form-travels__frames">
+									<div class="form-travels__frame form-travels__frame_1">
+										<div class="text-field _label _leading-icon">
+											<div class="text-field__body _icon-bed-fill">
+												<div class="text-field__input text-primary-regular-16px">
+													Istanbul, Turkey
 												</div>
 											</div>
-											<div class="text-field__label text-primary-regular-14px">From - To</div>
+											<div class="text-field__label text-primary-regular-14px">
+												Enter Destination
+											</div>
 										</div>
 									</div>
-									<div class="form-travel-flights-search__frame form-travel-flights-search__frame_2">
+									<div class="form-travels__frame form-travels__frame_2">
 										<div class="text-field _label _trailing-icon">
 											<div class="text-field__body">
+												<div class="text-field__input text-primary-regular-16px _icon-calendar-fill">
+													Fri 12/2
+												</div>
+											</div>
+											<div class="text-field__label text-primary-regular-14px">Check In</div>
+										</div>
+									</div>
+									<div class="form-travels__frame form-travels__frame_3">
+										<div class="text-field _label _trailing-icon">
+											<div class="text-field__body">
+												<div class="text-field__input text-primary-regular-16px _icon-calendar-fill">
+													Sun 12/4
+												</div>
+											</div>
+											<div class="text-field__label text-primary-regular-14px">Check Out</div>
+										</div>
+									</div>
+									<div class="form-travels__frame form-travels__frame_4">
+										<div class="text-field _label _trailing-icon _leading-icon">
+											<div class="text-field__body _icon-user-fill">
 												<div class="text-field__input text-primary-regular-16px _icon-chevron-down">
-													Return
-												</div>
-											</div>
-											<div class="text-field__label text-primary-regular-14px">Trip</div>
-										</div>
-									</div>
-									<div class="form-travel-flights-search__frame form-travel-flights-search__frame_3">
-										<div class="text-field _label">
-											<div class="text-field__body">
-												<div class="text-field__input text-primary-regular-16px">
-													07 Nov 22 - 13 Nov 22
+													1 room, 2 guests
 												</div>
 											</div>
 											<div class="text-field__label text-primary-regular-14px">
-												Depart- Return
-											</div>
-										</div>
-									</div>
-									<div class="form-travel-flights-search__frame form-travel-flights-search__frame_3">
-										<div class="text-field _label">
-											<div class="text-field__body">
-												<div class="text-field__input text-primary-regular-16px">
-													1 Passenger, Economy
-												</div>
-											</div>
-											<div class="text-field__label text-primary-regular-14px">
-												Passenger - Class
+												Rooms & Guests
 											</div>
 										</div>
 									</div>
@@ -123,90 +231,47 @@
 					</div>
 				</div>
 			</section>
-			<section class="flights-search__places places-flights-search">
-				<div class="places-flights-search__container">
-					<div class="places-flights-search__body">
-						<div class="places-flights-search__text-block">
-							<h2 class="places-flights-search__title text-primary-semibold-32px">
-								Let's go places together
-							</h2>
-							<div class="places-flights-search__text text-primary-regular-16px">
-								Discover the latest offers and news and start planning your next trip with us.
+			<section class="page_flights-search__recent-searches recent-searches-page">
+				<div class="recent-searches-page__container">
+					<h2 class="recent-searches-page__title text-secondary-bold-32px">Your recent searches</h2>
+					<div class="recent-searches-page__content">
+						<div class="recent-searches-page__cards">
+							<div class="recent-searches-page__card">
+								<div class="recent-searches-page__preview-ibg">
+									<img src="img/content/Hotel flow/hotel search/01.jpg" alt="img">
+								</div>
+								<div class="recent-searches-page__text-block">
+									<div class="recent-searches-page__name text-primary-semibold-16px">Istanbul, Turkey</div>
+									<div class="recent-searches-page__count text-primary-regular-12px">325 places</div>
+								</div>
 							</div>
-						</div>
-						<a class="places-flights-search__see-all button-none-medium-outlined text-primary-medium-14px" href="#" data-da=".places-flights-search__text-block, 767.98, last">See All</a>
-					</div>
-				</div>
-				<div class="places-flights-search__content">
-					<div class="places-flights-search__container_content">
-						<div class="places-flights-search__places">
-							<a class="place-flights-search place-flights-search_1" href="#">
-								<div class="place-flights-search__img-ibg">
-									<picture><source srcset="img/content/Flights-search/places/01.webp" type="image/webp"><img src="img/content/Flights-search/places/01.jpg" alt="img" /></picture>
+							<div class="recent-searches-page__card">
+								<div class="recent-searches-page__preview-ibg">
+									<img src="img/content/Hotel flow/hotel search/02.jpg" alt="img">
 								</div>
-								<div class="place-flights-search__info">
-									<h4 class="place-flights-search__title text-secondary-bold-10px">James Doe</h4>
-									<div class="place-flights-search__text text-primary-regular-10px">
-										Boarding Pass N’123
-									</div>
+								<div class="recent-searches-page__text-block">
+									<div class="recent-searches-page__name text-primary-semibold-16px">Sydney, Australia</div>
+									<div class="recent-searches-page__count text-primary-regular-12px">325 places</div>
 								</div>
-								<div class="place-flights-search__arrow-ibg place-flights-search__arrow-ibg_1">
-									<img src="img/content/Flights-search/places/arrow-1.svg" alt="arrow" />
+							</div>
+							<div class="recent-searches-page__card">
+								<div class="recent-searches-page__preview-ibg">
+									<img src="img/content/Hotel flow/hotel search/03.jpg" alt="img">
 								</div>
-							</a>
-							<a class="place-flights-search place-flights-search_2" href="#">
-								<div class="place-flights-search__img-ibg">
-									<picture><source srcset="img/content/Flights-search/places/02.webp" type="image/webp"><img src="img/content/Flights-search/places/02.jpg" alt="img" /></picture>
+								<div class="recent-searches-page__text-block">
+									<div class="recent-searches-page__name text-primary-semibold-16px">Baku, Azerbaijan</div>
+									<div class="recent-searches-page__count text-primary-regular-12px">325 places</div>
 								</div>
-								<div class="place-flights-search__info">
-									<h4 class="place-flights-search__title text-secondary-bold-10px">James Doe</h4>
-									<div class="place-flights-search__text text-primary-regular-10px">
-										Boarding Pass N’123
-									</div>
+							</div>
+							<div class="recent-searches-page__card">
+								<div class="recent-searches-page__preview-ibg">
+									<img src="img/content/Hotel flow/hotel search/04.jpg" alt="img">
 								</div>
-								<div class="place-flights-search__arrow-ibg place-flights-search__arrow-ibg_2">
-									<img src="img/content/Flights-search/places/arrow-2.svg" alt="arrow" />
+								<div class="recent-searches-page__text-block">
+									<div class="recent-searches-page__name text-primary-semibold-16px">Malé, Maldives</div>
+									<div class="recent-searches-page__count text-primary-regular-12px">325 places</div>
 								</div>
-							</a>
-							<a class="place-flights-search place-flights-search_3" href="#">
-								<div class="place-flights-search__img-ibg">
-									<picture><source srcset="img/content/Flights-search/places/03.webp" type="image/webp"><img src="img/content/Flights-search/places/03.jpg" alt="img" /></picture>
-								</div>
-								<div class="place-flights-search__info">
-									<h4 class="place-flights-search__title text-secondary-bold-10px">James Doe</h4>
-									<div class="place-flights-search__text text-primary-regular-10px">
-										Boarding Pass N’123
-									</div>
-								</div>
-								<div class="place-flights-search__arrow-ibg place-flights-search__arrow-ibg_3">
-									<img src="img/content/Flights-search/places/arrow-3.svg" alt="arrow" />
-								</div>
-							</a>
-							<a class="place-flights-search place-flights-search_4" href="#">
-								<div class="place-flights-search__img-ibg">
-									<picture><source srcset="img/content/Flights-search/places/04.webp" type="image/webp"><img src="img/content/Flights-search/places/04.jpg" alt="img" /></picture>
-								</div>
-								<div class="place-flights-search__info">
-									<h4 class="place-flights-search__title text-secondary-bold-10px">James Doe</h4>
-									<div class="place-flights-search__text text-primary-regular-10px">
-										Boarding Pass N’123
-									</div>
-								</div>
-							</a>
-							<a class="place-flights-search place-flights-search_5" href="#">
-								<div class="place-flights-search__img-ibg">
-									<picture><source srcset="img/content/Flights-search/places/05.webp" type="image/webp"><img src="img/content/Flights-search/places/05.jpg" alt="img" /></picture>
-								</div>
-								<div class="place-flights-search__info">
-									<h4 class="place-flights-search__title text-secondary-bold-10px">James Doe</h4>
-									<div class="place-flights-search__text text-primary-regular-10px">
-										Boarding Pass N’123
-									</div>
-								</div>
-							</a>
-						</div>
-						<div class="places-flights-search__background-ibg">
-							<img src="img/content/Flights-search/places/places.svg" alt="background-places-img" />
+							</div>
 						</div>
 					</div>
 				</div>
