@@ -8865,6 +8865,12 @@ h6 {
   border-radius: 1rem;
 }
 
+.travel-flight-listing__content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 100%;
+          flex: 1 1 100%;
+}
+
 .travel-flight-listing__button {
   height: 3.5rem;
   width: 3.5rem;
@@ -11912,11 +11918,12 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
 
   .form-travels_travel-flight-listing {
-    display: -ms-grid !important;
-    display: grid !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     gap: 1.5rem;
-    -ms-grid-columns: 1fr auto;
-    grid-template-columns: 1fr auto;
   }
 
   .plan__more {
